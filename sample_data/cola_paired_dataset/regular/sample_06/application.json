@@ -1,0 +1,14 @@
+{
+  "application_id": "MOCK-REGULAR-00006",
+  "submitted_date": "2026-02-25",
+  "brand_name": "STONE'S THROW",
+  "class_type": "Wine",
+  "abv": "13.0%",
+  "net_contents": "750 mL",
+  "designation": "Red Wine",
+  "producer": "Example Winery LLC",
+  "government_warning_required": true,
+  "intended_market": "Domestic",
+  "label_type": "Front Label",
+  "label_filename": "label.png"
+}

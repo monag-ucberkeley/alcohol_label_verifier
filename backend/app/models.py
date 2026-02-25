@@ -29,23 +29,8 @@ class CheckItem(BaseModel):
     notes: Optional[str] = None
     bbox_ids: List[str] = []
 
-class ImageQuality(BaseModel):
-    rating: str  # GOOD | FAIR | POOR
-    avg_ocr_confidence: float
-    low_conf_ratio: float
-    total_text_chars: int
-    recommendation: str
-
 class VerificationResult(BaseModel):
     overall_status: str  # PASS | NEEDS_REVIEW
     items: List[CheckItem]
-    image_quality: Optional[ImageQuality] = None
     timings_ms: Dict[str, int] = {}
     debug: Optional[Dict[str, Any]] = None
-
-class BatchItemResult(VerificationResult):
-    filename: str
-
-class BatchResult(BaseModel):
-    count: int
-    results: List[BatchItemResult]

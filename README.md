@@ -1,13 +1,5 @@
 # AI Alcohol Label Verification Prototype
 
-## Key features aligned to stakeholder notes
-
-- **Checklist-style UI** (large text/buttons) designed for low-tech users.
-- **Batch ZIP uploads** for peak-season importer dumps.
-- **Strict government warning validation** (header format + required clauses).
-- **Image quality rating** (GOOD/FAIR/POOR) with guidance to request a clearer photo.
-- **No cloud calls** (runs offline; firewall-friendly).
-
 ## Run in GitHub Codespaces (Recommended for interviewers)
 
 Codespaces environments can have Docker client/daemon version mismatches.  
@@ -130,3 +122,50 @@ To restart:
 docker compose down
 docker compose up --build
 ```
+
+## Dataset evaluation (paired COLA apps + labels)
+
+This repo includes zipped datasets under `sample_data/`:
+- `sample_data/cola_paired_dataset.zip` (paired label.png + application.json + application.png)
+- `sample_data/label_dataset.zip` (regular + distorted labels only)
+
+To evaluate the paired dataset:
+
+1) Unzip it somewhere (example):
+```bash
+unzip -q sample_data/cola_paired_dataset.zip -d sample_data/
+```
+
+2) Start the backend and frontend (Codespaces) or Docker locally.
+
+3) Run the evaluator script:
+```bash
+python scripts/eval_cola_dataset.py --dataset sample_data/cola_paired_dataset --api http://localhost:8000 --out dataset_results.json
+```
+
+4) (Optional) Run tests (will auto-skip if dataset isn't present):
+```bash
+cd backend
+pytest -q
+```
+
+
+## Uploading a COLA application separately (JSON)
+
+In **Single** mode, you can optionally upload a `application.json` file (e.g., from `sample_data/cola_paired_dataset.zip`).
+When provided, the UI will:
+- Auto-fill the application fields
+- Verify the label against the uploaded application JSON via `/api/verify-with-application-json`
+
+
+## Batch verification (paired ZIP)
+
+Batch mode expects a ZIP where each folder contains `label.png` (or .jpg/.jpeg) and `application.json`.
+
+Example:
+```
+regular/sample_01/label.png
+regular/sample_01/application.json
+```
+
+API: `POST /api/verify-batch-pairs` with form field `zip_file`.

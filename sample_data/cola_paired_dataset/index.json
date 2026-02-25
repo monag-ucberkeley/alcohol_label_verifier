@@ -1,0 +1,252 @@
+[
+  {
+    "subset": "regular",
+    "sample": "sample_01",
+    "label_path": "regular/sample_01/label.png",
+    "application_json_path": "regular/sample_01/application.json",
+    "application_png_path": "regular/sample_01/application.png",
+    "brand_name": "STONE'S THROW",
+    "abv": "12.5%",
+    "net_contents": "750 mL"
+  },
+  {
+    "subset": "regular",
+    "sample": "sample_02",
+    "label_path": "regular/sample_02/label.png",
+    "application_json_path": "regular/sample_02/application.json",
+    "application_png_path": "regular/sample_02/application.png",
+    "brand_name": "STONE'S THROW",
+    "abv": "12.6%",
+    "net_contents": "750 mL"
+  },
+  {
+    "subset": "regular",
+    "sample": "sample_03",
+    "label_path": "regular/sample_03/label.png",
+    "application_json_path": "regular/sample_03/application.json",
+    "application_png_path": "regular/sample_03/application.png",
+    "brand_name": "STONE'S THROW",
+    "abv": "12.7%",
+    "net_contents": "750 mL"
+  },
+  {
+    "subset": "regular",
+    "sample": "sample_04",
+    "label_path": "regular/sample_04/label.png",
+    "application_json_path": "regular/sample_04/application.json",
+    "application_png_path": "regular/sample_04/application.png",
+    "brand_name": "STONE'S THROW",
+    "abv": "12.8%",
+    "net_contents": "750 mL"
+  },
+  {
+    "subset": "regular",
+    "sample": "sample_05",
+    "label_path": "regular/sample_05/label.png",
+    "application_json_path": "regular/sample_05/application.json",
+    "application_png_path": "regular/sample_05/application.png",
+    "brand_name": "STONE'S THROW",
+    "abv": "12.9%",
+    "net_contents": "750 mL"
+  },
+  {
+    "subset": "regular",
+    "sample": "sample_06",
+    "label_path": "regular/sample_06/label.png",
+    "application_json_path": "regular/sample_06/application.json",
+    "application_png_path": "regular/sample_06/application.png",
+    "brand_name": "STONE'S THROW",
+    "abv": "13.0%",
+    "net_contents": "750 mL"
+  },
+  {
+    "subset": "regular",
+    "sample": "sample_07",
+    "label_path": "regular/sample_07/label.png",
+    "application_json_path": "regular/sample_07/application.json",
+    "application_png_path": "regular/sample_07/application.png",
+    "brand_name": "STONE'S THROW",
+    "abv": "13.1%",
+    "net_contents": "750 mL"
+  },
+  {
+    "subset": "regular",
+    "sample": "sample_08",
+    "label_path": "regular/sample_08/label.png",
+    "application_json_path": "regular/sample_08/application.json",
+    "application_png_path": "regular/sample_08/application.png",
+    "brand_name": "STONE'S THROW",
+    "abv": "13.2%",
+    "net_contents": "750 mL"
+  },
+  {
+    "subset": "regular",
+    "sample": "sample_09",
+    "label_path": "regular/sample_09/label.png",
+    "application_json_path": "regular/sample_09/application.json",
+    "application_png_path": "regular/sample_09/application.png",
+    "brand_name": "STONE'S THROW",
+    "abv": "13.3%",
+    "net_contents": "750 mL"
+  },
+  {
+    "subset": "regular",
+    "sample": "sample_10",
+    "label_path": "regular/sample_10/label.png",
+    "application_json_path": "regular/sample_10/application.json",
+    "application_png_path": "regular/sample_10/application.png",
+    "brand_name": "STONE'S THROW",
+    "abv": "13.4%",
+    "net_contents": "750 mL"
+  },
+  {
+    "subset": "distorted",
+    "sample": "sample_01",
+    "label_path": "distorted/sample_01/label.png",
+    "application_json_path": "distorted/sample_01/application.json",
+    "application_png_path": "distorted/sample_01/application.png",
+    "brand_name": "STONE'S THROW",
+    "abv": "12.5%",
+    "net_contents": "750 mL"
+  },
+  {
+    "subset": "distorted",
+    "sample": "sample_02",
+    "label_path": "distorted/sample_02/label.png",
+    "application_json_path": "distorted/sample_02/application.json",
+    "application_png_path": "distorted/sample_02/application.png",
+    "brand_name": "STONE'S THROW",
+    "abv": "12.6%",
+    "net_contents": "750 mL"
+  },
+  {
+    "subset": "distorted",
+    "sample": "sample_03",
+    "label_path": "distorted/sample_03/label.png",
+    "application_json_path": "distorted/sample_03/application.json",
+    "application_png_path": "distorted/sample_03/application.png",
+    "brand_name": "STONE'S THROW",
+    "abv": "12.7%",
+    "net_contents": "750 mL"
+  },
+  {
+    "subset": "distorted",
+    "sample": "sample_04",
+    "label_path": "distorted/sample_04/label.png",
+    "application_json_path": "distorted/sample_04/application.json",
+    "application_png_path": "distorted/sample_04/application.png",
+    "brand_name": "STONE'S THROW",
+    "abv": "12.8%",
+    "net_contents": "750 mL"
+  },
+  {
+    "subset": "distorted",
+    "sample": "sample_05",
+    "label_path": "distorted/sample_05/label.png",
+    "application_json_path": "distorted/sample_05/application.json",
+    "application_png_path": "distorted/sample_05/application.png",
+    "brand_name": "STONE'S THROW",
+    "abv": "12.9%",
+    "net_contents": "750 mL"
+  },
+  {
+    "subset": "distorted",
+    "sample": "sample_06",
+    "label_path": "distorted/sample_06/label.png",
+    "application_json_path": "distorted/sample_06/application.json",
+    "application_png_path": "distorted/sample_06/application.png",
+    "brand_name": "STONE'S THROW",
+    "abv": "13.0%",
+    "net_contents": "750 mL"
+  },
+  {
+    "subset": "distorted",
+    "sample": "sample_07",
+    "label_path": "distorted/sample_07/label.png",
+    "application_json_path": "distorted/sample_07/application.json",
+    "application_png_path": "distorted/sample_07/application.png",
+    "brand_name": "STONE'S THROW",
+    "abv": "13.1%",
+    "net_contents": "750 mL"
+  },
+  {
+    "subset": "distorted",
+    "sample": "sample_08",
+    "label_path": "distorted/sample_08/label.png",
+    "application_json_path": "distorted/sample_08/application.json",
+    "application_png_path": "distorted/sample_08/application.png",
+    "brand_name": "STONE'S THROW",
+    "abv": "13.2%",
+    "net_contents": "750 mL"
+  },
+  {
+    "subset": "distorted",
+    "sample": "sample_09",
+    "label_path": "distorted/sample_09/label.png",
+    "application_json_path": "distorted/sample_09/application.json",
+    "application_png_path": "distorted/sample_09/application.png",
+    "brand_name": "STONE'S THROW",
+    "abv": "13.3%",
+    "net_contents": "750 mL"
+  },
+  {
+    "subset": "distorted",
+    "sample": "sample_10",
+    "label_path": "distorted/sample_10/label.png",
+    "application_json_path": "distorted/sample_10/application.json",
+    "application_png_path": "distorted/sample_10/application.png",
+    "brand_name": "STONE'S THROW",
+    "abv": "13.4%",
+    "net_contents": "750 mL"
+  },
+  {
+    "subset": "distorted",
+    "sample": "sample_11",
+    "label_path": "distorted/sample_11/label.png",
+    "application_json_path": "distorted/sample_11/application.json",
+    "application_png_path": "distorted/sample_11/application.png",
+    "brand_name": "STONE'S THROW",
+    "abv": "12.5%",
+    "net_contents": "750 mL"
+  },
+  {
+    "subset": "distorted",
+    "sample": "sample_12",
+    "label_path": "distorted/sample_12/label.png",
+    "application_json_path": "distorted/sample_12/application.json",
+    "application_png_path": "distorted/sample_12/application.png",
+    "brand_name": "STONE'S THROW",
+    "abv": "12.6%",
+    "net_contents": "750 mL"
+  },
+  {
+    "subset": "distorted",
+    "sample": "sample_13",
+    "label_path": "distorted/sample_13/label.png",
+    "application_json_path": "distorted/sample_13/application.json",
+    "application_png_path": "distorted/sample_13/application.png",
+    "brand_name": "STONE'S THROW",
+    "abv": "12.7%",
+    "net_contents": "750 mL"
+  },
+  {
+    "subset": "distorted",
+    "sample": "sample_14",
+    "label_path": "distorted/sample_14/label.png",
+    "application_json_path": "distorted/sample_14/application.json",
+    "application_png_path": "distorted/sample_14/application.png",
+    "brand_name": "STONE'S THROW",
+    "abv": "12.8%",
+    "net_contents": "750 mL"
+  },
+  {
+    "subset": "distorted",
+    "sample": "sample_15",
+    "label_path": "distorted/sample_15/label.png",
+    "application_json_path": "distorted/sample_15/application.json",
+    "application_png_path": "distorted/sample_15/application.png",
+    "brand_name": "STONE'S THROW",
+    "abv": "12.9%",
+    "net_contents": "750 mL"
+  }
+]
