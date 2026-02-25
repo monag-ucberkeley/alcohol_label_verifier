@@ -5,10 +5,10 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 5173,
-    host: true,          // IMPORTANT for Docker/Codespaces
+    host: true,
     proxy: {
       "/api": {
-        target: "http://backend:8000",   // IMPORTANT: backend container name
+        target: "http://backend:8000",
         changeOrigin: true
       }
     }

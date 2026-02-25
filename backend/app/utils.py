@@ -16,7 +16,6 @@ def normalize_abv(s: str) -> str:
     t = t.replace("abv", "").replace("alc/vol", "").replace("alc.", "").replace("vol.", "")
     t = re.sub(r"\s+", "", t)
 
-    # allow multiple decimal digits (e.g., 12.50%)
     m = re.search(r"(\d{1,2}(?:\.\d{1,3})?)%", t)
     if not m:
         return ""
@@ -29,6 +28,19 @@ def normalize_net_contents(s: str) -> str:
         return ""
     t = s.strip().lower()
     t = re.sub(r"\s+", "", t)
-    # replace plural first to avoid "milliliters" -> "mls"
     t = t.replace("milliliters", "ml").replace("milliliter", "ml")
+    return t
+
+def normalize_warning(s: str) -> str:
+    """Normalize warning statement for comparison.
+
+    - uppercases
+    - removes punctuation
+    - collapses whitespace
+    """
+    if not s:
+        return ""
+    t = s.upper()
+    t = re.sub(r"[^A-Z0-9\s]", " ", t)
+    t = re.sub(r"\s+", " ", t).strip()
     return t
