@@ -1,18 +1,20 @@
 {
-  "name": "Alcohol Label Verifier (Codespaces)",
+  "name": "Alcohol Label Verifier",
 
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
-
-  "features": {
-    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
-  },
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
 
   "forwardPorts": [5173, 8000],
 
   "portsAttributes": {
-    "5173": { "label": "Frontend", "onAutoForward": "openBrowser" },
-    "8000": { "label": "Backend API", "onAutoForward": "openBrowser" }
+    "5173": {
+      "label": "Frontend",
+      "onAutoForward": "openBrowser"
+    },
+    "8000": {
+      "label": "Backend",
+      "onAutoForward": "openBrowser"
+    }
   },
 
-  "postStartCommand": "docker compose up --build -d"
+  "postCreateCommand": "pip install -r backend/requirements.txt && cd frontend && npm install"
 }
