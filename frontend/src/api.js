@@ -1,4 +1,6 @@
-const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:8000";
+// Use relative paths so the same build works locally and in GitHub Codespaces.
+// Vite dev server proxies /api -> http://backend:8000 (see vite.config.js).
+const API_BASE = "";
 
 export async function verifySingle({ file, brand_name, abv, net_contents, require_gov_warning }) {
   const form = new FormData();
