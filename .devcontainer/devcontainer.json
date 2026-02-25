@@ -1,0 +1,24 @@
+{
+  "name": "Alcohol Label Verifier",
+
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+
+  "forwardPorts": [5173, 8000],
+
+  "portsAttributes": {
+    "5173": {
+      "label": "Frontend",
+      "onAutoForward": "openBrowser"
+    },
+    "8000": {
+      "label": "Backend API",
+      "onAutoForward": "openBrowser"
+    }
+  },
+
+  "postStartCommand": "docker compose up --build -d"
+}
